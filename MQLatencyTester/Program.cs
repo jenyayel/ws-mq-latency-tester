@@ -14,7 +14,7 @@ namespace MQLatencyTester
     class Program
     {
 
-        private int WAIT_TIMEOUT = 100;
+        private const int WAIT_TIMEOUT = 100;
 
         static void Main(string[] args)
         {

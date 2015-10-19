@@ -8,7 +8,7 @@ namespace MQLatencyTester
         [Option('h', "host", Required = true, DefaultValue = "localhost", HelpText = "The host address of WebSphere MQ")]
         public string Host { get; set; }
 
-        [Option('r', "port", Required = true, DefaultValue = 1414, HelpText = "The port of MQ manager listens to")]
+        [Option('r', "port", DefaultValue = 1414, HelpText = "The port of MQ manager listens to")]
         public int Port { get; set; }
 
         [Option('u', "user", HelpText = "User id property")]
